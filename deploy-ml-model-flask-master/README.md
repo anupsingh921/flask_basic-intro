@@ -1,2 +1,2 @@
 # deploy-ml-model-flask
- deploy your ml model using flask
+ A basic simple Python-based web application of Iris flower classification using Flask framework.
