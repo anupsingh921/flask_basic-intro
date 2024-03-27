@@ -1,0 +1,22 @@
+<html>
+    <body bgcolor="cyan">
+
+        <center>
+
+        <h1 style="margin-top:20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> IRIS FLOWER DETECTION </h1><br>
+        
+        <div>
+        <form method="POST", action="{{url_for('home')}}">
+           <b> Sepal Length :  <input type="text", name='a', placeholder="Enter sepal length" style="width:180px;padding:7px;border-radius: 5px;background-color: blue;color:white"> <br><br>
+            Sepal Width :  <input type="text", name='b', placeholder="Enter sepal width"style="padding:7px;width:180px;border-radius: 5px;background-color: blue;color:white"> <br><br>
+            Petal Length :  <input type="text", name='c', placeholder="Enter petal length"style="padding:7px;width:180px;border-radius: 5px;background-color: blue;color:white"> <br><br>
+            Petal Width : <input type="text", name='d', placeholder="Enter petal width"style="padding:7px;width:180px;border-radius: 5px;background-color: blue;color:white"> <br><br><br></b>
+            <input type="submit" , style="background-color: aquamarine;padding:9px;border-radius: 5px;font-weight: bolder;"value='PREDICT!!' >
+        </form>
+         </div><br>
+        <img src='static\flower1.jpg' alt="flower">
+        
+    </center>
+
+    </body>
+</html>
